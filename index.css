@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-image: url(https://wallpapercave.com/wp/wp3264682.jpg);
+    background-size: cover;
+}
+.container{
+    display: flex;
+    width: 100vh;
+}
+.pannel{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 8px;
+    position: relative;
+    border: 2px solid black;
+}
+.pannel h3{
+    font-size: 25px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+
+}
+.pannel.active{
+    flex: 50%;
+}
+.pannel.active h3{
+    opacity: 5;
+    transition: opacity 0.3s ease-in 0.4S;
+}
+
+#panel-1{
+    background-image: url(https://ghantee.com/wp-content/uploads/2022/11/ganpati-wallpaper-hd-576x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#panel-2{
+    background-image: url(https://i.pinimg.com/736x/f6/8a/54/f68a5478e392d568c1cb3c50634c8f68.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#panel-3{
+    background-image: url(https://i.pinimg.com/736x/13/95/9a/13959adfbc9c48213e74ee6e0dc4f519.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#panel-4{
+    background-image: url(https://www.pngitem.com/pimgs/m/217-2170900_groom-and-bride-vector-png-transparent-png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#panel-5{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/01/32/74/69/1000_F_132746950_LshxojmWvtb9vlxRrLNCrdYOmTFWTume.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#panel-6{
+    background-image: url( https://img.freepik.com/premium-vector/grandparents-day-grandfather-grandmother_88465-950.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#panel-7{
+    background-image: url(https://cdn.imgbin.com/0/24/4/imgbin-hindu-joint-family-nuclear-family-extended-family-grandparent-family-hjztWcBUq6vA4awvB6tm3ASw8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#panel-8{
+    background-image: url(https://ichef.bbci.co.uk/images/ic/1200x675/p028w6p0.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
